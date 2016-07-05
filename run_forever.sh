@@ -1,4 +1,4 @@
 while true
 do
-  python datok_dan_datin.py
+  python get_data.py
 done
