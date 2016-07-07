@@ -127,4 +127,8 @@ We plot the yearly trend again without Pahang.
 
 Now, the decrease in granting titles in year 2012 is no longer apparent.
 
+Lastly, we examine the yearly trend by states other than Pahang.
+
 ![Yearly Trend by States](yearly_trend_by_states_without_pahang.png)
+
+It seems that the other states grant titles at similar rate.
