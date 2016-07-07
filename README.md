@@ -110,3 +110,11 @@ First we examine the frequency of titles by state.
 We can explain this because there are much more federal titles.
 
 ![Number of Different Titles](number_different_titles.png)
+
+We can also examine the yearly trend by different state.
+
+![Yearly Trend by States](yearly_trend_by_states.png)
+
+![Yearly Trend by States](yearly_trend_by_states_without_persekutuan.png)
+
+![Yearly Trend by States](yearly_trend_by_states_without_pahang.png)
