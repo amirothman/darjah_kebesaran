@@ -13,3 +13,9 @@ These honorific titles are awarded to denote appreciation, prestige and other re
 There are two main categories of honorific titles. Firstly, federal titles and secondly, state titles. Federal titles are granted by the Yang di-Pertuan Agong who is the head of state of Malaysia. State titles on the other hand are granted by the Ruler or Governor of the state.
 
 Malaysia has thirteen states. Nine of these states are headed by Malay rulers who come from the respective monarchy of the state. The other four states do not have monarchies but has a ceremonial Governor.
+
+## Obvious Numbers
+
+There are 267 different honorific titles. 91194 honorific titles are granted to 86803 different people from the year 1958 to 2015.
+
+![Most popular](most_popular.png)
