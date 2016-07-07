@@ -113,7 +113,7 @@ We can explain this because there are much more federal titles.
 
 We can also examine the yearly trend by different state.
 
-![Yearly Trend by States](yearly_trend_by_states.png)
+![Yearly Trend by States](yearly_trend_of_states.png)
 
 ![Yearly Trend by States](yearly_trend_by_states_without_persekutuan.png)
 
