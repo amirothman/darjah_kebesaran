@@ -115,6 +115,8 @@ We can also examine the yearly trend by different state.
 
 ![Yearly Trend by States](yearly_trend_of_states.png)
 
+By looking at the trends, apparently the data prior to 1985 consists of only federal (persekutuan) titles. In order to improve visibility, we remove the perseketuan titles.
+
 ![Yearly Trend by States](yearly_trend_by_states_without_persekutuan.png)
 
 ![Yearly Trend by States](yearly_trend_by_states_without_pahang.png)
