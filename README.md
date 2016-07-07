@@ -101,4 +101,8 @@ df["nama_negeri"] = df.Anugerah.apply(lambda x: get_nama_negeri(x))
 
 ```
 
-Now we have a new column, namely "nama_negeri". This indicates the name of the state. "persekutuan" indicates a federal title.
+Now we have a new column, namely "nama_negeri". This indicates the name of the state. The label "persekutuan" would be used in the case of a federal title.
+
+First we examine the frequency of titles by state.
+
+![Frequency by state](frequency_by_state.png)
