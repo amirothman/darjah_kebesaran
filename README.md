@@ -106,3 +106,7 @@ Now we have a new column, namely "nama_negeri". This indicates the name of the s
 First we examine the frequency of titles by state.
 
 ![Frequency by state](frequency_by_state.png)
+
+We can explain this because there are much more federal titles.
+
+![Number of Different Titles](number_different_titles.png)
