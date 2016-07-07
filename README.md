@@ -32,3 +32,67 @@ Now let's look at the frequency of awarding these titles. The top ten titles can
 ![Most popular](most_popular.png)
 
 There are some artifacts in the graph, certain titles are plotted with different bars. I theorized that this has something to do with faulty UTF-8 encoding. However, we can still analyze the data. The top three titles did not come as a surprise. All three of these titles, [Pingat Pangkuan Negara](https://ms.wikipedia.org/wiki/Pingat_Pangkuan_Negara), [Kesatria Mangku Negara](https://ms.wikipedia.org/wiki/Kesatria_Mangku_Negara) and [Ahli Mangku Negara](https://ms.wikipedia.org/wiki/Ahli_Mangku_Negara) do not have a limit in the number of people being granted. This is not the case with the other titles.
+
+```python
+
+import re
+def get_nama_negeri(anugerah):
+    anugerah = anugerah.lower()
+    nama_negeri = ["sarawak","sabah","negeri sembilan",
+                   "pahang","perak","perlis",
+                   "selangor","terengganu","kelantan",
+                   "johor","pahang","melaka","kedah",
+                   "pulau pinang","negara"]
+
+    for negeri in nama_negeri:
+        if re.search(negeri,anugerah):
+            if negeri == "negara":
+                return "persekutuan"
+            else:
+                return negeri
+
+    anugerah_negara = ["gagah berani","perkasa persekutuan","gagah perkasa",
+                       "setia mahkota","setia diraja","tentera udara",
+                       "kerabat diraja","setia diraja","mahkota malaysia",
+                       "perutusan keberanian"]
+
+    for a in anugerah_negara:
+        if re.search(a,anugerah):
+            return "persekutuan"
+
+    anugerah_negeri_dict = {"tuanku ja'afar yang amat terpuji":"negeri sembilan",
+                            "taming sari":"perak",
+                            "cura si manja kini":"perak",
+                            "kinabalu":"sabah",
+                            "pangkuan negeri":"pulau pinang",
+                            "pangkuan negari":"pulau pinang",
+                            "kenyalang":"sarawak",
+                            "yam tuan raden":"negeri sembilan",
+                            "salahuddin abdul aziz shah":"selangor",
+                            "abdul halim mu'adzam shah":"kedah",
+                            "baginda syed putra":"perlis",
+                            "paduka tuanku ja'afar":"negeri sembilan",
+                            "sultan ahmad shah":"pahang",
+                            "sultan nazrin shah":"perak",
+                            "jamalullail":"perlis",
+                            "sharafuddin idris shah":"selangor",
+                            "mahkota wilayah":"persekutuan",
+                            "mangku wilayah":"persekutuan",
+                            "tuanku mukhriz":"negeri sembilan",
+                            "tuanku muhriz":"negeri sembilan",
+                            "yang amat dihormati pangkat pertama":"johor",
+                            "kerabat halimi":"kedah",
+                            "mahawangsa":"kedah",
+                            "halim muadzam shah":"kedah",
+
+                            "darjah bakti":"persekutuan"
+
+                          }
+
+    for k,v in anugerah_negeri_dict.items():
+        if re.search(k,anugerah):
+            return v
+
+df["nama_negeri"] = df.Anugerah.apply(lambda x: get_nama_negeri(x))
+
+```
