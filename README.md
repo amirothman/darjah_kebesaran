@@ -18,6 +18,12 @@ Malaysia has thirteen states. Nine of these states are headed by Malay rulers wh
 
 There are 267 different honorific titles. 91 194 honorific titles are granted to 86 803 different people from the year 1958 to 2015.
 
+From the following graph we can see the yearly trend of the granting of awards.
+
 ![Yearly Trend](yearly_trend.png)
+
+Intersting notes:
+  * A strong drop in year 1985. Then the trend shows an increase beyond year 1988.
+  * Another strong drop in year 2013. Then the trend shows a further decrease up to year 2015.
 
 ![Most popular](most_popular.png)
