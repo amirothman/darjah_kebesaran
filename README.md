@@ -23,6 +23,7 @@ From the following graph we can see the yearly trend of the granting of awards.
 ![Yearly Trend](yearly_trend.png)
 
 Intersting notes:
+  * A sharp increase in year 1977.
   * A strong drop in year 1985. Then the trend shows an increase beyond year 1988.
   * Another strong drop in year 2013. Then the trend shows a further decrease up to year 2015.
 
