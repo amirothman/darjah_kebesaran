@@ -121,4 +121,10 @@ By looking at the trends, apparently the data prior to 1985 consists of only fed
 
 Something interesting to note here is that titles from Pahang is much bigger in volume than the other states. It is also worth noting that the data for titles from Pahang is only until the year 2012. This may explain why there is a drop of number of people being granted with titles in year 2012.
 
+We plot the yearly trend again without Pahang.
+
+![Yearly Trend Without Pahang](yearly_trend_without_pahang.png)
+
+Now, the decrease in granting titles in year 2012 is no longer apparent.
+
 ![Yearly Trend by States](yearly_trend_by_states_without_pahang.png)
