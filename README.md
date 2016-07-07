@@ -33,6 +33,8 @@ Now let's look at the frequency of awarding these titles. The top ten titles can
 
 There are some artifacts in the graph, certain titles are plotted with different bars. I theorized that this has something to do with faulty UTF-8 encoding. However, we can still analyze the data. The top three titles did not come as a surprise. All three of these titles, [Pingat Pangkuan Negara](https://ms.wikipedia.org/wiki/Pingat_Pangkuan_Negara), [Kesatria Mangku Negara](https://ms.wikipedia.org/wiki/Kesatria_Mangku_Negara) and [Ahli Mangku Negara](https://ms.wikipedia.org/wiki/Ahli_Mangku_Negara) do not have a limit in the number of people being granted. This is not the case with the other titles.
 
+In order to classify the titles by the state it is awarded, we devised a pattern matching strategy. The following Python method is able to classify all the titles except
+
 ```python
 
 import re
@@ -96,3 +98,5 @@ def get_nama_negeri(anugerah):
 df["nama_negeri"] = df.Anugerah.apply(lambda x: get_nama_negeri(x))
 
 ```
+
+Now we have a new column, namely "nama_negeri". This indicates the name of the state. "persekutuan" indicates a federal title.
