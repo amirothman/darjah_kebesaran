@@ -8,7 +8,7 @@ Utilizing a simple [Python script](https://github.com/amirothman/darjah_kebesara
 
 ## Background
 
-These honorific titles are awarded to denote appreciation, prestige and other reasons. More information about these different titles can be read in [this Wikipedia article](https://en.wikipedia.org/wiki/Malay_styles_and_titles).
+These honorific titles are awarded to denote appreciation, prestige and other reasons. More information about these different titles can be read in these Wikipedia articles: [Malay Styles and Titles](https://en.wikipedia.org/wiki/Malay_styles_and_titles), [Orders, decorations and medals of Malaysia](https://en.wikipedia.org/wiki/Orders,_decorations,_and_medals_of_Malaysia).
 
 There are two main categories of honorific titles. Firstly, federal titles and secondly, state titles. Federal titles are granted by the Yang di-Pertuan Agong who is the head of state of Malaysia. State titles on the other hand are granted by the Ruler or Governor of the state.
 
