@@ -35,7 +35,7 @@ There are some artifacts in the graph, certain titles are plotted with different
 
 ## Trend By States
 
-In order to classify the titles by the state it is awarded, we devised a pattern matching strategy. The following Python method is able to classify all the titles except
+In order to classify the titles by the state it is awarded, a pattern matching strategy is devised. The following Python method is able to classify all the titles to its respective states.
 
 ```python
 
