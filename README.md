@@ -111,7 +111,7 @@ We can explain this because there are much more federal titles.
 
 ![Number of Different Titles](number_different_titles.png)
 
-We can also examine the yearly trend by different state.
+Next, we examine the yearly trend by different state.
 
 ![Yearly Trend by States](yearly_trend_of_states.png)
 
